@@ -12,6 +12,7 @@ export const presetStarter = definePreset((_options: StarterOptions = {}) => {
     // Customize your preset here
     rules: [
       ['custom-rule', { color: 'red' }],
+      ['row', { 'display': 'flex', 'flex-wrap': 'wrap', 'justify-content': 'space-between' }],
       [
         /col-(\d+)/,
         ([_, s]) => ({ width: `calc(${s} / ${span} * 100%)` }),

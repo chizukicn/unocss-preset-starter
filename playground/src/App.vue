@@ -1,17 +1,17 @@
 <template>
   <div>
     <div class="custom-rule">
-      Unpreset       Starter
+      Unpreset Starter
     </div>
-    <div class="flex">
-      <div class="col-3 bg-white text-center">
-        Col 3
+    <div class="row">
+      <div class="col-3 col-item">
+        Cols 3
       </div>
-      <div class="col-4 bg-blue-3 text-center">
-        Col 4
+      <div class="col-6 col-item">
+        Cols 6
       </div>
-      <div class="col-5 bg-blue-3 text-center">
-        Col 5
+      <div class="col-3 col-item">
+        Cols 3
       </div>
     </div>
   </div>
